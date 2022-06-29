@@ -1,0 +1,17 @@
+{
+  "packageId": "wpkAY9QetT6Lh",
+  "spaceId": "wpkAY9QetT6Lh",
+  "entry": "./src/index.tsx",
+  "name": {
+    "zh-CN": "字段编辑器",
+    "en-US": "Field Editor"
+  },
+  "icon": "./package_icon.png",
+  "cover": "./cover.png",
+  "authorIcon": "./author_icon.png",
+  "description": {
+    "zh-CN": "用于测试小程序关于字段编辑的 SDK 能力",
+    "en-US": "You can test the Widget SDK about field editing"
+  },
+  "sandbox": true
+}

@@ -1,0 +1,161 @@
+{
+  "fields": [
+    {
+      "name": "多行文本",
+      "type": "Text",
+      "property": null
+    },
+    {
+      "name": "网址",
+      "type": "URL",
+      "property": null
+    },
+    {
+      "name": "邮箱",
+      "type": "Email",
+      "property": null
+    },
+    {
+      "name": "电话",
+      "type": "Phone",
+      "property": null
+    },
+    {
+      "name": "单行文本",
+      "type": "SingleText",
+      "property": {
+        "defaultValue": "单行文本"
+      }
+    },
+    {
+      "name": "数字",
+      "type": "Number",
+      "property": {
+        "defaultValue": "1",
+        "precision": 2,
+        "symbol": "$"
+      }
+    },
+    {
+      "name": "勾选",
+      "type": "Checkbox",
+      "property": {
+        "icon": "art"
+      }
+    },
+    {
+      "name": "评分",
+      "type": "Rating",
+      "property": {
+        "icon": "boxing_glove",
+        "max": 8
+      }
+    },
+    {
+      "name": "百分比",
+      "type": "Percent",
+      "property": {
+        "defaultValue": "1",
+        "precision": 2
+      }
+    },
+    {
+      "name": "货币",
+      "type": "Currency",
+      "property": {
+        "defaultValue": "1",
+        "precision": 2,
+        "symbolAlign": "Left",
+        "symbol": "元"
+      }
+    },
+    {
+      "name": "单选",
+      "type": "SingleSelect",
+      "property": {
+        "options": [{
+          "name": "选项1"
+        }, {
+          "name": "选项2",
+          "color": "red_1"
+        }]
+      }
+    },
+    {
+      "name": "多选",
+      "type": "MultiSelect",
+      "property": {
+        "defaultValue": [],
+        "options": [{
+          "name": "选项1"
+        }, {
+          "name": "选项2",
+          "color": "red_1"
+        }]
+      }
+    },
+    {
+      "name": "成员",
+      "type": "Member",
+      "property": {
+        "isMulti": true,
+        "shouldSendMsg": false
+      }
+    },
+    {
+      "name": "日期",
+      "type": "DateTime",
+      "property": {
+        "dateFormat": "YYYY-MM-DD",
+        "timeFormat": "HH:mm",
+        "autoFill": true,
+        "includeTime": true
+      }
+    },
+    {
+      "name": "附件",
+      "type": "Attachment",
+      "property": null
+    },
+    {
+      "name": "公式",
+      "type": "Formula",
+      "property": {
+        "expression": "'1 + 1 = 2'"
+      }
+    },
+    {
+      "name": "自增数字",
+      "type": "AutoNumber",
+      "property": null
+    },
+    {
+      "name": "创建时间",
+      "type": "CreatedTime",
+      "property": {
+        "dateFormat": "YYYY/MM/DD",
+        "timeFormat": "HH:mm",
+        "includeTime": true
+      }
+    },
+    {
+      "name": "修改时间",
+      "type": "LastModifiedTime",
+      "property": {
+        "dateFormat": "YYYY/MM/DD",
+        "timeFormat": "HH:mm",
+        "includeTime": true
+      }
+    },
+    {
+      "name": "创建人",
+      "type": "CreatedBy",
+      "property": null
+    },
+    {
+      "name": "修改人",
+      "type": "LastModifiedBy",
+      "property": {}
+    }
+  ]
+}
