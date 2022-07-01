@@ -1,10 +1,10 @@
 {
-  "packageId": "wpkAY9QetT6Lh",
-  "spaceId": "wpkAY9QetT6Lh",
+  "packageId": "wpknoXFRN4c1j",
+  "spaceId": "spchPAEDQruln",
   "entry": "./src/index.tsx",
   "name": {
-    "zh-CN": "字段编辑器",
-    "en-US": "Field Editor"
+    "zh-CN": "数表编辑器",
+    "en-US": "Datasheet Operation"
   },
   "icon": "./package_icon.png",
   "cover": "./cover.png",
