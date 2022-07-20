@@ -79,7 +79,7 @@ npm install -g @vikadata/widget-cli
 
 ![widget-config](/static/img/widget-config.png)
 
-2. 在根目录中创建 `.vika.yml` 文件，添加 API Token 和 host
+2. 使用 `widget-cli auth` 命令去创建认证文件（`.vika.yml`），添加 API Token 和 host
 
 ![set-vika-yml](/static/img/set-vika-yml.png)
 
